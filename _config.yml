@@ -55,11 +55,5 @@ nav:
 # -----------------------------------------------------------------------------
 # FIX：补上你缺失的关键配置（解决构建报错核心）
 # -----------------------------------------------------------------------------
-third_party_libraries:
-  jquery: true
-  bootstrap: true
-  font_awesome: true
-  mathjax: true
-  mermaid: true
-  chartjs: true
-  pdfjs: true
+3rd_party_libraries: []
+
