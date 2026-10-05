@@ -1,44 +1,40 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
-title: blank # the website title (if blank, full name will be used instead)
+title: Jingrui Zhu | Personal Homepage
 first_name: Jingrui
 middle_name: ""
 last_name: Zhu
-
 contact_note: >
   Feel free to reach out via email.
-
 description: >
-  Master student at National University of Singapore. Research interests include human-computer interaction, biomechanics and wearable devices.
-
+  Future Master student at National University of Singapore. 
+  Research interests include full-stack robotics, hardware-software co-design, 
+  human-computer interaction, and control systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: robotics, full-stack robotics, human-computer interaction, control systems, academic homepage
+lang: en
+icon: 
+apple_touch_icon: 
 
-keywords: academic homepage, human-computer interaction, biomechanics # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores
-
-# 你的主页地址！不要改动baseurl
 url: "https://jingruiiiiii.github.io"
-baseurl: "" # leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+baseurl: ""
+last_updated: false
 
 # -----------------------------------------------------------------------------
 # Social links
 # -----------------------------------------------------------------------------
-email: 1655024457@qq.com # 👉这里替换成你自己的邮箱！
-google_scholar: # 有谷歌学术就粘贴链接，没有保持空
+email: 1655024457@qq.com
+google_scholar: 
 github: https://github.com/jingruiiiiii
-linkedin: # 有领英就粘贴链接，没有保持空
-orcid: # 有ORCID就粘贴链接，没有保持空
+linkedin: 
+orcid: 
+
 cv: assets/files/CV.pdf
 avatar: assets/img/avatar.jpg
 
-# 主题开关
 enable_darkmode: true
 
 # -----------------------------------------------------------------------------
@@ -56,5 +52,14 @@ nav:
   - name: CV
     link: /assets/files/CV.pdf
 
-# 下面剩下的原有配置全部保留不动，不要删除！
-# （粘贴到这里为止，下方原来所有的代码继续保留，不要删掉）
+# -----------------------------------------------------------------------------
+# FIX：补上你缺失的关键配置（解决构建报错核心）
+# -----------------------------------------------------------------------------
+third_party_libraries:
+  jquery: true
+  bootstrap: true
+  font_awesome: true
+  mathjax: true
+  mermaid: true
+  chartjs: true
+  pdfjs: true
