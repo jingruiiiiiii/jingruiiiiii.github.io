@@ -30,7 +30,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 # -----------------------------------------------------------------------------
 # Social links
 # -----------------------------------------------------------------------------
-email:1655024457@qq.com # 👉这里替换成你自己的邮箱！
+email: 1655024457@qq.com # 👉这里替换成你自己的邮箱！
 google_scholar: # 有谷歌学术就粘贴链接，没有保持空
 github: https://github.com/jingruiiiiii
 linkedin: # 有领英就粘贴链接，没有保持空
