@@ -53,7 +53,6 @@ nav:
     link: /assets/files/CV.pdf
 
 # -----------------------------------------------------------------------------
-# FIX：补上你缺失的关键配置（解决构建报错核心）
+# Third-party library configuration consumed by jekyll-3rd-party-libraries.
 # -----------------------------------------------------------------------------
-3rd_party_libraries: []
-
+third_party_libraries: {}
